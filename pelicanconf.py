@@ -13,7 +13,7 @@ SITESUBTITLE = u"Yet another noob programmer's blog"
 # Change in publishconf.py and ignore the WARNING.  This is needed so you
 # can inspect the site using a web-server at locahost.
 
-SITEURL = ''
+SITEURL = 'http://satoshiliang.github.io/blog'
 
 # Times and dates.
 
@@ -28,7 +28,7 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options.
 
-uri = 'http://satoshiliang.github.io/blog'
+uri = SITEURL
 MENUITEMS = [('Blog', '%s/blog' % uri), ('Archives',
              '%s/blog/archives.html' % uri), ('About', '%s/homepage'
              % uri)]
@@ -105,7 +105,7 @@ FACEBOOK_LIKE = True
 
 # RSS/Atom feeds
 
-FEED_DOMAIN = 'http://satoshiliang.github.io/blog'
+FEED_DOMAIN = SITEURL
 FEED_ATOM = 'atom.xml'
 
 # Search
