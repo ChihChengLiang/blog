@@ -30,7 +30,7 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 uri = SITEURL
 MENUITEMS = [('Blog', '%s/' % uri), ('Archives', '%s/archives.html'
-             % uri), ('About', '%s/pages/about.html' % uri)]
+             % uri)]  # ('About', '%s/pages/about.html' % uri)
 NEWEST_FIRST_ARCHIVES = True
 
 # Github include settings.
