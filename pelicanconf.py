@@ -18,7 +18,7 @@ SITEURL = 'http://satoshiliang.github.io/blog'
 # Times and dates.
 
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
-TIMEZONE = 'America/Sao_Paulo'
+TIMEZONE = 'Asia/Taipei'
 DEFAULT_LANG = u'en'
 
 # Set the article URL.
@@ -29,9 +29,8 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 # Title menu options.
 
 uri = SITEURL
-MENUITEMS = [('Blog', '%s/blog' % uri), ('Archives',
-             '%s/blog/archives.html' % uri), ('About', '%s/homepage'
-             % uri)]
+MENUITEMS = [('Blog', '%s/' % uri), ('Archives', '%s/archives.html'
+             % uri), ('About', '%s/pages/about.html' % uri)]
 NEWEST_FIRST_ARCHIVES = True
 
 # Github include settings.
