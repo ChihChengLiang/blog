@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>LaiHangE</title><link href="http://satoshiliang.github.io/blog/" rel="alternate"></link><link href="http://satoshiliang.github.io/blog/feeds/all-en.atom.xml" rel="self"></link><id>http://satoshiliang.github.io/blog/</id><updated>2014-10-15T00:00:00-03:00</updated><entry><title>Hello world</title><link href="http://satoshiliang.github.io/blog/2014/10/15/hello_world/" rel="alternate"></link><updated>2014-10-15T00:00:00-03:00</updated><author><name>Chih-Cheng Liang</name></author><id>tag:satoshiliang.github.io/blog,2014-10-15:2014/10/15/hello_world/</id><summary type="html">&lt;p&gt;Finally the blog is up! &lt;/p&gt;
+&lt;p&gt;Thanks to Gilbert's great article  &lt;a href="http://weichengliou.github.io/blog/blog/2014/08/07/buildblog/"&gt;http://weichengliou.github.io/blog/blog/2014/08/07/buildblog/&lt;/a&gt; . Also thanks to the following original toturial too.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/"&gt;http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now I have a blog that can embed ipython notebook cells.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="cell border-box-sizing code_cell vbox"&gt;
+&lt;div class="input hbox"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In&amp;nbsp;[1]:
+&lt;/div&gt;
+&lt;div class="input_area box-flex1"&gt;
+&lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;ha!ha!ha! &amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="vbox output_wrapper"&gt;
+&lt;div class="output vbox"&gt;
+
+
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_stream output_stdout"&gt;
+&lt;pre&gt;
+ha!ha!ha!
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Here is some additional info on setup of pelican, which might save you some time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When things get ugly, don't hesitate to &lt;code&gt;make clean&lt;/code&gt; or &lt;code&gt;rm output/ -r&lt;/code&gt;. Some bugs ,&lt;code&gt;'ascii' codec can't decode byte 0xe6 in position 80: ordinal not in range(128)&lt;/code&gt; for example, that you might not know where to fix, lives in the &lt;code&gt;output/&lt;/code&gt; directory. &lt;/li&gt;
+&lt;li&gt;Make sure your &lt;code&gt;cells&lt;/code&gt; in &lt;code&gt;{％ notebook nbtest.ipynb cells[1:] %}&lt;/code&gt; refers to the correct cells in the ipynb file. (Sorry for that fullwidth percentage sign, one does not simply escape the variable delimiters in pelican)&lt;/li&gt;
+&lt;/ul&gt;</summary></entry></feed>
