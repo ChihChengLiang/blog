@@ -11,7 +11,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://satoshiliang.github.io/blog'
+SITEURL = 'http://chihchengliang.github.io/blog'
 
 DELETE_OUTPUT_DIRECTORY = True
 
