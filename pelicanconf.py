@@ -60,7 +60,7 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 
 path = os.path.join(os.environ.get('HOME'), 'pelican')
 THEME = '%s/pelican-octopress-theme' % path
-PLUGIN_PATH = '%s/pelican-plugins' % path
+PLUGIN_PATHS = ['%s/pelican-plugins' % path]
 PLUGINS = [
     'summary',
     'liquid_tags.img',
